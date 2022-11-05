@@ -5,8 +5,8 @@
 
 .caja{
     margin: 25px;
-    width: 400px;
-    height: 500px;
+    width: 220px;
+    height: 300px;
 }
 
 .caja img{
@@ -14,4 +14,5 @@
     height: 100%;
     border: 2px solid red;
     object-fit: cover;
+    object-position: right;
 }
