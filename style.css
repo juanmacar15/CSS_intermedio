@@ -3,15 +3,30 @@
     padding: 0;
 }
 
-.caja{
+.padre{
+    display: flex;
+}
+
+.caja1{
     margin: 25px;
     width: 220px;
     height: 300px;
     border: 5px solid red;
-    background-color: gold;
-    cursor: pointer;
+    background-color: rgb(10, 190, 130);
 }
 
-.caja:active{
-    cursor: help;
+.caja2{
+    margin: 25px;
+    width: 220px;
+    height: 300px;
+    border: 5px solid red;
+    background-color: #48e;
+}
+
+.caja3{
+    margin: 25px;
+    width: 220px;
+    height: 300px;
+    border: 5px solid red;
+    background-color: orangered;
 }
