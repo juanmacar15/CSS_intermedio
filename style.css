@@ -7,12 +7,11 @@
     margin: 25px;
     width: 220px;
     height: 300px;
+    border: 5px solid red;
+    background-color: gold;
+    cursor: pointer;
 }
 
-.caja img{
-    width: 100%;
-    height: 100%;
-    border: 2px solid red;
-    object-fit: cover;
-    object-position: right;
+.caja:active{
+    cursor: help;
 }
